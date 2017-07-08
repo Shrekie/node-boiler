@@ -1,6 +1,8 @@
 <html ng-app="nodeBoiler">
     <head>
 
+        <base href="/">
+
         <!-- JQUERY -->
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -23,6 +25,14 @@
     </head>
 
     <body ng-controller="mainController">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>{{user.profileID}}</p>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
