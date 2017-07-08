@@ -1,0 +1,22 @@
+{
+  "name": "node-boiler",
+  "description": "",
+  "main": "server/server.js",
+  "authors": [
+    "Shrekie <thomaslindauer@mail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Shrekie/node-boiler",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.5"
+  }
+}
